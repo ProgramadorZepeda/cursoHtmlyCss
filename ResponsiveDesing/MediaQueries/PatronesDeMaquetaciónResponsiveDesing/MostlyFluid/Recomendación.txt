@@ -1,0 +1,25 @@
+Recomendación.
+
+Separa siempre tus arcivos de CSS por break point.
+
+*mobile.css / style.css
+
+*tablet.css
+
+*desktop.css
+
+Siempre es bueno dividir los @media queries, no es bueno cargar todos os media queries en un mismo archivo.
+Lo ideal es tener un archivo inicial y luego al implementar los break points se cargen.
+
+mydive.io{
+    aquí se puede ver el width de diferentes dispositivos, dependiendo del dispositivo, para ver el promedio en la parte de hasta abajo de la pagina existe un comparativo, entre distintos dispositivos.
+}
+
+Ejemplos de paáginas
+
+MostlyFluid: Dropobox.com
+
+Layoutshifter:Github.com, smashingmagazine.com.
+
+Ejemplo de cuadricula con grid Layout: dribbble.com
+

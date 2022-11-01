@@ -1,0 +1,33 @@
+¿Cómo se controla el orden al declarar CSS?
+1.- Importancia: La importancia es uno de los conceptos más...importantes.
+Si dos delcaraciones tiene la misma importancia, la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.
+
+    A).- Hoja de estilo de usuaio(Estilos del navegador); primero el navegador aplica sus estilos, los estilos que el tiene para ciertas etiquetas de html, a esto se le llama estilos del navegador, primero va a cargar las hojas del estilo del agente del usario. Cuándo se cargue nuestro proyecto el navegador primero va a cargar sus estilos.
+
+    B).- Declaraciones normales en hojas de estilo de autor(Nuestro .css) Déspues el navegador va a cargar lso estilos que nostros implementamos en nuestro archivo .CSS
+
+    C).- Declaraciones importantes en hojas de estilos de autor(utilizar el !important) y por último aplicara los estilos que vengan con un !import al final !Nota¡ esta es una muy mala práctica porque puede llegar a generar conflicto entre los estilos.
+
+2.- Especifidad: Los números que tenemos de derecha a izquierdad representan la importancia siendo los de la derechas los menos importantes u los de la derecha los más importantes.
+
+
+        Selectores.      especificidad.
+        !important         1,0,0,0,0
+        Inline styles      0,1,0,0,0
+        #id                0,0,1,0,0
+        .class             0,0,0,1,0
+        tag                0,0,0,0,1
+
+      !IMPORTANT: Es el punto más importante, pero no es una buena práctica y debe evitarse.
+
+      IINLINE STYLES: Se carga despues de !important, son los estilos que se mebeben en la etiqueta de html, también se deben evitar.
+
+      #ID: Después entran todos los estilos que tengan los #id      
+
+      .CLASS: Luego se aplicaran todos los estilos que están en las clases
+
+      TAG: Hasta el final se cargaran los estilos que éstan en los selectores de etiquetas en el archivo de css
+
+Si tenemos un conflicto a la orden de apliar estilos, es porque hay un estilo especifico en una clase
+
+3.- Orden en las fuentes: Como se mandan a llamar los estilos, o en que linea de código se colocan los estilos.CSs siempre va a empezar de la primera linea hacía abajo, es como una cascada, empieza arriba y termina hasta abajo y los estilos que siempre se van a aplicar que estan hasta abajo.

@@ -1,0 +1,3 @@
+¿Qué es CSS?....signifca cascading style shet, es el algoritmo que utiliza esta tencnología.
+
+como analogía podemos pensar que es una carta, Html es el lapíz y css son los colores y los adornos

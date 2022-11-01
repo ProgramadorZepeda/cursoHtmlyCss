@@ -1,0 +1,17 @@
+Anatomía de una regla en CSS
+A todos los estilos que vamos a implemnetar se le llama regla en css, todo el conjunto se le conoce como regla
+todo nuestro archivo en css son simplemente reglas en css
+
+<EJEMPLO>
+fig 1.
+P {   
+     color: red;
+}
+fig.2 
+P : (selector)
+
+fig 3. color: (Es la propiedad)
+
+fig 4. red; (Es el valor de la propiedad)
+
+Lo que esta dentro de los braquets "{}" se le conoce como la declaración, si no cerramos bien los braquets, sino colocamos el ";" o el selector, es probable que no se apliquen los estilos 

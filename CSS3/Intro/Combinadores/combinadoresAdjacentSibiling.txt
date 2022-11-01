@@ -1,0 +1,33 @@
+Comobinarores en Css(Combinators)
+
+Nos permiten combinar múltiples selectores y crean una mayor especificad. Tenemos 4 combinadores que al momemnto de generar estas combinaciones, vamos a tener una especifidad mucho mas altas y con esto podemos evitar tener por ejemplo id + etiqueta, y nos van a ayuda a la especifiidad.
+
+1.- Hermano adyacente o cercano(Adjacent siviling)
+EJEMPLO:
+
+div + p {
+    ...
+}
+
+
+2.-Hermano general(General siviling)
+EJEMPLO:
+
+div ~ p{
+    ...
+}
+
+3.-hijo(chiild)
+EJEMPLO:
+
+div > p{
+    ...
+}
+
+
+4.-Decendiente(Descendant)
+EJEMPLO:
+div p{
+    ...
+}
+

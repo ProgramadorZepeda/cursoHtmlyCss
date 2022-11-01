@@ -1,0 +1,18 @@
+/*Lo primero que tenemos que hacer es decirle a css el elemento que queremos modificar, La sintaxis es generar los brackets y agregamos los estilos adentro de ellos  */
+
+/*¿Cómo puedo empezar a llamar las etiquetas para los estilos?......
+1.- Por el elemento : la etiqueta*/
+p {
+    color: blue;
+    font-size: 30px;
+}
+/*2.- Por clase --- Para llamar a las etiqueta nos vamos en el documento html, a la etiqueta que queramos darle estilo, lo haremos agregando el atributo class, para mandar a llamar la clase que le dimos a la etiqueta usamos la siguiente sintaxis, agregamos un "." y el nombre de la clase*/
+.parrafo {
+    color: red;
+
+}
+/*3.- ID: el id a diferencia de la clase se inicia con un numeral "#" y el nombre que le dimos al id */
+#texto {
+    color: yellow;
+    font-size: 50px;
+}

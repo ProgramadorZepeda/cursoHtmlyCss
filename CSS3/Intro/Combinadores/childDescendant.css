@@ -1,0 +1,14 @@
+/*Combinador Child*/
+
+/*Este combinador lo podemos interpretar como, la etiqueta <p> que sea hija directa de una etiqueta <div>*/div > p{
+    color: red;
+}
+
+/*Descendant*/
+
+/*Esto lo podemos interpretar como todas la etiquetas <p> que esten adentro de la etiqueta <div> aplicale esta regla, suele ser muy habitual y es de los que se usa más*/
+div p {
+    color:brown;
+}
+
+/*Se va a tomar encuenta cual es el padre mayor*/

@@ -1,0 +1,35 @@
+/*En la parte de CSS lo primero que tenemos que hacer es mandar a llamar los elementos y como tenemos clase, empezamos con las clases*/
+
+/*PSEUDOCLASES.
+":class" Define el elemento de un estado*/
+
+/*PSEUDOELEMENTO
+"::element" Define el estilo de una parte especifica del elemento
+*/
+.main-nav {
+    margin-top: 10px;
+    list-style: none;/*Sirve para modifcar los estilos de las listas*/
+    padding-left: 0;/*El pading es una dimensión interna que tienen los contenedores*/
+    background-color: #13a4a4;/*Agrega color de fondo*/
+}
+.main-nav__item {
+    display: inline-block;/*Cambia el display que traen los elemntos */
+}
+.main-nav__item a /*Aquí agregamos la etiqueta a, a esto se le conoce como ser especifico en CSS; Le estamos diciendo que a todas las etiquetas na que estan adentro de este elemento con esta clase aplicale este estilo*/ {
+    color: white;
+    padding: 5px;
+    border-radius:2px ;/*Redondea las esquinas*/
+    text-decoration: none;/*Quita los estilos del texto por ejemplo en el caso de los hiperlinks, quita la line que tienen en la parte de abajo*/
+}
+/*Apartir de aquí empezamos a utilizar las pesudo clases*/
+.main-nav__item a:hover/*para mandar a llamar una pseudo clase se colocan ":" y la acción que queremos realizar*/ {
+color:blue;/*En esta linea indicamos la acción que queremos que occurra con esta pseudo clase, en este caso es que cuando pongamos nuestro navegador encima del texto cambie de color a auzul*/
+}
+.main-nav__item a:active/*ACTIVE: esta pseudo clase cambia el color cuando estamos utilizando el item selecccinado, en este caso se tornara de color rojo*/{
+    color:red;
+}
+/*Apartir de aquí empezamos a ultilizar los pseudo elementos */
+.main-nav__item a::after /*Los pseudo elementos los mandamos a llamar con "::" y el nombre del pseudo elemento */{
+    content: "|" ; /*Este estilo, agrega el contenido despues del elemnto, por ejemplo despues del elemnto ancla agrega "|" */
+
+}

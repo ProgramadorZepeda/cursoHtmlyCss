@@ -1,0 +1,32 @@
+Las imágenes representan una pieza fundamental al momento de mostrar el contenido para web.
+conoceremos los principales tipos de imágenes web y sus formatos.
+
+TIPOS DE IMÁGENES PARA WEB.
+
+Lossles(sin pérdida):
+1.- Capturan todos los datos del archivo original
+
+2.- No se pierde nada del archivo original.
+
+3.- Puede comprimirse, pero podrá reconstruir su imagen al estado original
+
+Lossy(con pérdida):
+
+1.- Se aproximan a su imagen original.
+
+2.- Podría reducir la cantidad de colores de su imagen o analizar la imagen en busca de datos innecesarios.
+
+3.- Por consiguiente puede reducir su tamaño, lo que mejora el tiepo de carga de la página, pero pierde su calidad.
+
+4.- Los archivos tipo lossy son mucho más livianos que los tipo lossles, por lo que son ideales para usar en sitios donde el tamaño del archivo y la velocidad de descarga son importantes.
+
+DIFERECNIAS.
+GIF: lossless Máximo 256 colores.Animaciones simples gráficos con colores planos.
+
+PNG-8: lossless máximo 256 colores. Uso de trnasparencia, sin animación, ideal para íconos.
+
+PNG-24: lossless, colores ilimitados. Similar a PNG-8, Maneja imágenes fijas de más colores y transparencia.
+
+JPG: Lossy Millones de colores Imágenes fijas. Fotografía.
+
+SVG: vector/lossless. Colores ilimitados, Gráficos/ logótipos para web, Retina/pantallas de alta resolución.

@@ -1,0 +1,31 @@
+Web-fonts y Font-fa,ilies.
+
+
+Genericas.           Fuentes.
+serif           Time New Roman      Georgia
+sans-serif      Helvetica           Verdana
+cursivo         Danzing Script      Greatvibes
+monospace       Courier New         Robotomono
+
+Serif: tiene una puntita al final.
+Sans-serif: no tienen puntita al final.
+Cursive: 
+monospace: 
+
+¿Cómo puedo saber que fuentes tiene mi computadora y en mi navegador?
+
+En el navegador, en el menu vamos a configuración y buscamos diseño y personalizar fuentes. ahí viene la información que tenemos.
+
+Para buscar fuentes podemos buscar en google fonts.
+
+1. buscamos la fuente y la seleccionamos.
+2.ya que seleccionamos la fuente, recuerda existen ciertos parametros que pueden hacer que se vean mas rellenas o menos.
+3. podemos seleccinar más de un formato.
+4. despues nos vamos a la seccion de embeber, copiamos y lo pegamos.
+se pude pegar el @import en el css, pero no es tan buena práctica, porque puede impactar en el preformance.
+La mejor práctica es no importar las fuentes en los estilos y es mejor ponerla dentro del head, para eso, vamos a la pagina y buscamos la opcion de link, la copiamos y la agregamos al header.
+
+Por buena práctica 
+
+* Solo cargar 1 fuente por proyecto
+*Importarlas siempre en la etiqueta head

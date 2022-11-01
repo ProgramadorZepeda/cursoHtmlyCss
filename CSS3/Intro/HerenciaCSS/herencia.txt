@@ -1,0 +1,3 @@
+HERENCIA.
+Es parte del sistema de cascada
+es el código css que se le va a pasar de un padre a un hijo

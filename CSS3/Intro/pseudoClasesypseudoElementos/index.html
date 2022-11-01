@@ -1,0 +1,25 @@
+<!--Pseudo clases y pseudo elementos, es a que le vamos a agregar estilos una vez que tengamos nuestras etiquetas -->
+<!--Metodlogía BEM. (Nos ayuda a entender como nombrar las clases, que puedan escalar el css, sin generar problemas )-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pseudo clases y Pseudo elementos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="main-nav"><!--Como nombrar nuestras clases, los nombres deben ser acordes a lo que estamos trabajando, para eso existen ciertas formas de hacer clases, en el ejemplo de la etiqueta (ul)usamos el nombre del contenedor principal de la barra de navegacion por eso se llama main-nav  a pesar de quetenemos la entiqueta nav, el contenedor proncipal de los items es ul-->
+                <li class="main-nav__item"><!--Aquí agregamos el como clase para dar estilo main-nav__item: "item"hacemos referencia a que este es un elemnto de nuestro navegador, así cuando agregemos los estilos únicamente estaremos danto estilo a los elementos <li> dentro de la etiqueta ul que se encuentran dentro de la etiqueta <nav>--><a href="">Home</a></li>
+                <li class="main-nav__item"><a href="">Cursos</a></li>
+                <li class="main-nav__item"><a href="">Instructores</a></li>
+                <li class="main-nav__item"><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

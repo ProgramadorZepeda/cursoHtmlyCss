@@ -1,0 +1,41 @@
+<!--¿Qué pasa si necesito que el usario me de información especifica de fechas, dás, meses o años? ......Para hacer calendario en un form existen dos formas-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Esta es la manera habitual de hacer un formulario de tipo calendario-->
+    <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora"> <!--En caso de que suisieramos mandar esta información, podemos utilizar el atributo (name): name = al mismo atributo de for en la etiqueta label e id en la etiqueta input -->
+        </label>
+        <label for="dia">
+            <span>Día</span>
+            <input type="date" id="dia" name="dia"> <!--Para los dias utilizamos el atributo date, en la etiqueta input-->
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana"> <!--Para semanas cambiamos el atributo de la etiqueta label y usamos el tipo week-->
+        </label>
+        <label for="mes">
+            <span>Hora</span>
+            <input type="month" id="mes" name="mes"> <!--Para el mes usamos el atributo month en la etiqueta input-->
+        </label>
+        <input type="submit"/> <!-- el atribut submit en la etiqueta input debajp de la etiqueta label de un formulario envia la información al servidor qué elijamos -->
+    </form>
+
+    <!--Esta es la manera más sencilla de generar un fomulario de tipo calendario-->
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

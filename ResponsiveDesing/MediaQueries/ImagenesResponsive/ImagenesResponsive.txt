@@ -1,0 +1,4 @@
+Responsive Imágenes.}
+
+Gran parte del contenido en la web son imágenes,ya sean imágenes con texto, ya sean gif´s y es importante saber como podemos trabajar de forma responsive.
+

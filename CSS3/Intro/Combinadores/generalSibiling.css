@@ -1,0 +1,8 @@
+/*General SIbiling*/
+/*Para mandar a llamar al general sibiling utilizamos el signo de equivalente o virgula ~*/
+
+/*Aquí le estamos indicando al navegador que queremoas modificar todas las etiquetas que tengan como hermano general un h2*/
+h2 ~ p {
+   color: red; 
+}
+/*En este ejemplo vemos como todas las etiquetas de parrafo se les añade la regla de color rojo, porque de manera general convicen parrafos con h2*/

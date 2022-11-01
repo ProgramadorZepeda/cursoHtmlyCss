@@ -1,0 +1,18 @@
+Modelo de Caja
+Los elementos que se renderizan los renderiza como cajas. 
+
+En CSS estamos trabajando con cajas que son contenedores que van a llevar contenido; Estas cajas se les pueden agregar ciertos estilos, a estos estilos se les puede llamar modelos de caja
+
+ESTILOS.
+
+MARGIN: Puede ser un espacio externo de la caja hacía afuera.
+
+BORDER: es la linea que va definir a cada uno de los elementos, puede estar o no estar, por default viene transparente, pero nosotros podemos poner un color y también podemos ponerle que tenga un ancho para que el elemento tenga un borde muy visible.
+
+PADING: a diferencia del margin no es un espacio externo de la caja hacia afuera, sino  que es un espacion interno. de la caja hacia adentro y eso nos ayuda a posicionar el contenido, de la caja hacía adentro y eso nos ayuda a posicionar el contenido de la caja, ya sea la etiqueta de HTML, si hay mucho espacio interno podemos agragar un padding para jugar un poco más con el contenido ya sean texto o imagenes.
+
+CONTENIDO: Puden ser imagenes, texto o video o cualquier elemento que vayamos a ver, una vez que se renderice el elemento, con esto tambien tenemos dos elementos:
+WIDTH: que es el ancho del contenido.
+HEIGHT, que es el alto que queremos que tenga.
+Con esto podemos jugar con las dimensiones, y dependiendo de el lugar que este el contenido podremos moverlos con top, bottom , left o right 
+

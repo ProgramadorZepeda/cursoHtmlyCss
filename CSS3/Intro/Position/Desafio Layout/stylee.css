@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/*****************************************************************HEADER******************************************************************/
+.header-container{
+    height: 115px;
+    background-color: white;
+}
+figuire img{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-nav{
+    position: absolute;
+    right: 0px;
+    height: 115px;
+    width: 550px;
+    list-style: none;
+}
+.main-nav--item{
+    display: inline;
+    position: relative;
+    top: 50px;
+    right: 0px;
+    padding-right: 20px;
+}
+header ul li {
+    font-size: 2.2rem;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    text: shadow 5px;px blue ;
+}
+
+/****************************************************              BODY             **************************************************************/
+
+main{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    background-color: red;
+}
+.menu-principal{
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    border: 5px black solid;
+}
+
+.menu-principal--item{
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 35px;
+    height: 25%;
+    width: 75%;
+    margin: 10px;
+    border: 5px black solid;
+    border-radius: 10px;
+}

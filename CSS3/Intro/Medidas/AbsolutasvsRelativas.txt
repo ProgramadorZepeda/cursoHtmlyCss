@@ -1,0 +1,14 @@
+MEDIDAS.
+ABSOLUTAS VS RELATIVAS.
+Para entender las medidas debemos entender dos parametros. medidas absolutas y relativas.
+
+ABSOLUTAS: cuando hablamos de medidas absolutas usamos los pixeles (px) esta medida no va a cambiar sin importar el proyecto.
+
+RELATIVAS: Cuando hablamos de medidas relativas estas son diferentes porque van a cambiar, dependiendo del dispositivo
+% :El tamaño de la fuente hereda del elemnto html, ejemplo si el html tiene 16px el 50% serian 8 px
+em : Elemento
+rem(Root em ) : Root elemento
+max-width / max-height : varian con relación al tamaño de la pantalla
+min-width / min-height :
+vw(viewport width): 
+vh(viewport height):

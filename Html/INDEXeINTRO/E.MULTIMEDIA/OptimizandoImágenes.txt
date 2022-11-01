@@ -1,0 +1,16 @@
+Optimización de Imágenes.
+Tamaño promedio.
+En primedio una imágen de pesar 70 kb
+¿Cómo asegurar de que una imagen pese 70kb?
+
+Con dos sitios web.
+
+Mejora el tamaño de las imágens 
+TinyPng.
+
+Retirar metadatos de tu imágenes.
+Verifex.
+
+TINYPNG.
+Se puede usar con .png o con .jpeg.
+se coloca la imagen al cuadro se arroja la imágen y no regresa la imágen comprimida.

@@ -1,0 +1,13 @@
+/*El navegador casí siempre le agrega estilos a todas las etiquetas por default, esto no lo decidimos nostros lo decide el navegar, perp¿Cómo podemos resetear esos estilos para empezar a jugar con mis estilos sin que haya estilos extra ?, para ello usamos el selectro universal que es "*" */
+* {
+    box-sizing: border-box/*Le dice que sume el paading con el width del elemento, el navegador hace un cálculo automático, del tamaño del width que tiene , va a restar el padding y el border, para que no se salga del navegador para tener la dimensión justa y no exista scroll*/;
+    padding: 0;
+    margin: 0;
+    /*Así estamos reseteando los estilo que trae por defecto el navegador */
+}
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

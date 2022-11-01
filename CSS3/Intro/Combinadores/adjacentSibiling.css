@@ -1,0 +1,10 @@
+/*Combinador de hermano cercano*/
+
+/*Aquí le decimos al navegador que aplique el color rojo a todas las etiquetas que esten cerca de un h2, es signo de "+" le dice que todas las etiquetas de parrafo que esten cerca de un h2 le aplique esa regla de CSS */
+h2 + p{
+    color: red;
+}
+
+/*Este combinador adjacent sibiling se utiliza cuando tengmaos proyectos que tengamos muchas cajas contenedoras con muchas etiquetas adentro o tengamos muchas etiquetas contendeoras, de ésta forma podemos ser más especificos sin estar usando tanta clase*/
+
+

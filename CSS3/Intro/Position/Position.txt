@@ -1,0 +1,54 @@
+POSITION
+
+Es importantnte entendrlo ya que es la forma en la que podemos posicionar, los contenedores las cajas o las etiquetas de html cuando las utilicemos, sabemos que tenemos diferentes position en css.
+
+
+
+POSITION.
+
+STATIC:Todas la etiquetas vienen por default con el position estatic, es decir que se quedan donde son colocadas, es por eso que cuando se hace scroll, no se mueven, no se bajan junto con la pantalla.
+
+ABSOLUTE: Este valor también aceptara los valores top, left, right y bottom. El elemnto con position: absolute no estará dentro del flujo nomral de la página y tomará como referencia la ventana del navegador o el elemnto posicionado(que tenga cualquier valor de position excepto static) más cercano si es padre del elemento que queremos posicionar.
+
+RELATIVE: Mediante este valor podemos posicionar un elemnto respecto al flujo normal de la página. Se podría decir que estamos poicionando un elemento tomando como refrencia el flujo normal (la posicionon por defecto ) de dicho elemnto.
+
+FIXED: Los ementos a los cuales se les posiciona con position: fixed también están fuera del flujo normal de la página. Sin embargo, no se debe de confundir con los elemntos que están en posicionados con position: absolute.
+
+A diferencia de estos útimos, los elentos con el position: fixed toman como referencia la ventana del navegador y bo respetan el tener un contenedor padre, que esté posicionado. Además, al hacer scroll en la página, el elemnto que esté posicionado como position: fixed seguirá en la misma psición respecto a la ventana del navegador, aunque el scroll haya desplazado en la página hacia abajo.
+
+Como una imagen vale más que mil palabtas y tomando como referencia el último ejemplo del apartado position: absolute.
+
+STICKY:Este es un valo que es nuevo relativamente para esta propiedad
+Usando este valor, el elemnto actuá como si estuviera posicionado con el valor "relative" hasta que se alcanza un umbra de desplazamient(en el propio elemento o en elemento padre), con el cual el elemnto pasa a posicionarse como si estuviera posicionando con el valor "fixed"
+Por ejemplo, vamos a tomar como referencia un menú horizontal que está en la parte superior de la página debajo del logo de la empresa a la que pertenecemos.
+
+Algo así:
+
++----------------------------------------------+
+|                  LOGO                        |
+|                                              |
++----------------------------------------------+
+|               MENÚ RELATIVO                  |
++----------------------------------------------+
+|                                              |
+|                                              |
+|                 CONTENIDO                    |
+|                                              |
+|                                              |
+|                                              |
++----------------------------------------------+
+Y queremos que cuando al hacer scroll y el menú ya no quepa en la pantalla (es decir, el valor de la propiedad top sea menor que 0), el menú quede fijo en la parte superior de la pantalla.
+
+Algo así:
+
++----------------------------------------------+
+|                  MENÚ FIJO                   |
++----------------------------------------------+
+|                                              |
+|                                              |
+|                  CONTENIDO                   |
+|                                              |
+|                                              |
+|                                              |
++----------------------------------------------+
+Para ello emplearemos el valor sticky ya que nos hará el trabajo sin necesidad de usar Javascript.

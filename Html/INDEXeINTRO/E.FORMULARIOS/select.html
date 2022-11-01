@@ -1,0 +1,28 @@
+<!--La etiqueta select no da la opcion de poner diferentes artículos u opciónes, puede ser pais, idioma etc -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+</head>
+<body>
+    <main>
+        <select name="cursos" id=""><!--La etiqueta SELECT; tiene un atributo nombre, que es o que va a seleccionar y un ID como hay diferentes opciones de la etiqueta hay que seleccionar el id para decirle que opcion va a enviar, es bueno usar select cuando hay pocas opciones-->
+            <option value="JavaScript"><!--Aquí van a ir las opciones que va a desplegar la etiqueta select...En la parte del valor es lo que se va a guardar y se a ir a la base de datos -->JavaScript </option>
+        </select>
+        <option value="HTML5">HTML5 </option>
+        <option value="CSS3">CSS3 </option>
+        <option value="Web Standars">Web Standars </option><!--Esta manera de escribir el codigo no es la mejor porque el entre mas opciónes se desplieguen el usario  tendra más dificulatdes a la hora de acceder al menu selcet-->
+
+        <!--Menú select con buenas prácticas-->
+        <input list="cursos"/>
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="Html5"></option>
+            <option value="CSS3"></option><option value="Web estandar"></option>
+        </datalist>
+    </main>
+</body>
+</html>

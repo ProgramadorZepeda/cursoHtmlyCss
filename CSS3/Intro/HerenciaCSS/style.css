@@ -1,0 +1,9 @@
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*El navegador por default agrega estilos y tamaños  a las fuentes, eso nostros no lo seleccionamos, el navegador se lo da por defecto a la etiqueta html y esta haciendo que se herede ese tamaño de fuente al resto de etiquetas*/
+h1 {
+    font-size: inherit;
+}
+/**/

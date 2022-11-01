@@ -1,0 +1,9 @@
+Display.
+
+Block.- Viene por defecto en los elentos que creemos, significa que utilizara el 100% del espacio que tenga adelante, sin importar si el contenido tiene o no espacio.
+
+
+Inline.- El display inline va a utilizar unicamente el espacio que tenga su contenido y si queda espacio delante, va a permitir que otras etiquetas u otro contenido se ponga delante, en el display inline no se puede utilizar la parte del margin o el padding, en la parte de ariba o en la parte de abajo, se puede utilizar solo para la izquierda o la derecha y tampoco se le puede dar un width or height, no va a poder creecer, porque es de forma linear
+
+
+Inline-block.-En los elemntos inline-block, hacen que ocupe el 100% del tamaño del contenido y si hay espacio permite que otros hermanos se pongan en frente de ellos y si no tiene los va a bajar, también permite que se pueda agregar margin y padding

@@ -1,0 +1,37 @@
+/*Max/min width */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height:100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    min-height: 500px ;
+    margin: 0 auto;/*Margin:0 auto; agrega margin de lado izquierdo a derecho hace que se ajuste de forma automatica*/
+    background-color: red;
+
+}
+
+/*MIN-HEIGHT: se utiliza para definir la altatura mínima de un elemento dado. impide que el valor de la propiedad height llegue a ser más pequeña que la epcificada en la alturamínima (min-height). Se refiere a la laturadel bloque contenedor */
+
+/*MAX-HEIGHT: se utiliza para definir la altura máxima de un elemnto dado, Impide que el valor de la altura pueda llegar a ser nás grande que la de max-height. 
+
+PORCENTAJES: Se refiere a la altura de un bloque contenedor 
+*/
+
+/*MIN-WIDTH: se usa para determinar la anchura mínima de un elemento. Previene que la propiedad width pude ser inferior que min-width
+
+APLICABLE: a elementos de tipo bloque*/
+
+/*MAX-WIDTH: defiene el ancho máximo que unelemnto puede tener max-width  cambia el tamaño del elemento si el valor de width es mayor que el de max-width.*/
+
+/*------------------------------------*/
+/*OVERFLOW: quiere decir que tenemos más texto contenido que el espacio del contenedor padre */

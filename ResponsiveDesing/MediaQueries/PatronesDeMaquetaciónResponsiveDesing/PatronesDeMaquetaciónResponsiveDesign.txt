@@ -1,0 +1,8 @@
+Estsos son los patrones que nos van a ayudar a construir productos web.
+
+
+Son 3 los principales.
+
+El primer patron es conocido como Mostly Fluid.
+
+Vámos a iniciar con columas y al momento de que empice a creecer a tablet vamos a empexar a re acomodar las columnas, el heder ocupara el 100% del width, y que se parta los contenedores en dos columnas, sy le damos la vuelta a la tablet se reacomede parte de los contendores y si no vamos a deskopt o una laptop se re acomodara por importancia.

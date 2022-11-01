@@ -1,0 +1,9 @@
+/*La etique html viene con un tamaño y estilo predeterminado y la heredara a sus hijos*/
+/*Em: va a tomar el tamaño de fuente que tenga el padre directo, debemos tener mucho cuidado de donde vamos a mandar a llamar a em*/
+
+.text-container{
+    font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+}

@@ -1,0 +1,3 @@
+Paginas Estáticas vs Dinámica
+P.Estática: son las paginas que unicamiente tienen pura información para consumir, texto, imagenes ej blogpost también se les conoce como paginas de info. o landing pages. Estas paginas no estan conectadas con un servidor o una base de datos.
+P. Dinámicas: como web apps, estas dejan de ser paginas y se combierten mas en aplicaciones, estas si estan conecatadas con las base de datos, por que se genera interaccion con el usuario.

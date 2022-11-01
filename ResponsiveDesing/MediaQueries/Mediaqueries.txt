@@ -1,0 +1,32 @@
+Resonsive Desing.
+Es la manera en la que nos podemos asegurar de que nuestros productos,  que estamos construyendo sean multiplataforma, es decir que se puedan ver bien en diferentes dispositivos.
+
+Break points
+--------------------------
+son la dimension el view port o en el width de la pantalla en el que se va a generar un cambio; este cambio va a ser el cambio en el que pudeo reposisionar ciertos elementos o ciertos contenedores para que se empiece a ver bastante bien sin importar el dispositivo en el que estes.
+
+Media Quieries son:
+
+@media(min-width: 480px){
+    ....
+}
+@media(min-width: 768px){
+    ....
+}
+@media(min-width: 1024px){
+    ....
+}
+
+esto se agrega directamente con@media con mid width, este px se convertira en el break point.
+
+Existen diferentes estrategias para el responsive desing, la más porpular es la de mobile first o mobile only, quiere decir que los diseños web deben estar diseñados para los dispositvos moviles. 
+
+La forma de hacerlo es teniendo el código báse para el dispositivo mobile, luego tendremos un break point para oder hacer ciertos cambios en un dispositivo más grande, luego otro break point para una tablet y al fina otro break point para una computadora más grande.
+
+esto se puede palicar directamente en el css, pero también se puede aplicar direcatmanente en el head y esa es la mejor práctica.
+
+En vez de ligar un solo archivo de Css vamos a ligar diferentes archivos de CSS dependiendo para que dispositivo este hecho, nuestro primer archivo de CSS va a estar enfocado en el dispositivo mobile.
+
+EJEMPLO:
+<link href="style.css" rel="stylesheet"> <!--tus estilos para enfocados en mobile-->
+<link href"tablet.css" rel="stylesheet" media="screen and (min-width: 768px)">
